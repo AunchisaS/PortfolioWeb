@@ -1,0 +1,98 @@
+#about{
+    background-color: var(--color-whitegray);
+    
+}
+
+.about-ver-phone{
+    padding: 10%;
+    display: block;
+}
+.about-ver-tablet{
+    display: none;
+   
+}
+
+
+
+.each__skill{
+    text-align: center; 
+    margin: 2rem;
+}
+
+.skill__logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.about__Education{
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+
+}
+
+.each__edu{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10% ;
+
+}
+
+.tree{
+    
+    text-align: start; 
+}
+
+.tree2{
+   
+    text-align: end; 
+}
+.sign{
+    margin-right: 5rem;
+    text-align: end; 
+
+}
+
+
+/*====================MEDIA QUERIES=======================*/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   .beaker:hover{
+    background-color: #774B99;
+   }
+/* 
+   .animate-beaker:hover{
+        
+   }
+
+   .circle{
+    position: absolute;
+    z-index: 1;
+    display: initial;
+   } */
+
+    .about-ver-phone{
+        display: none;
+    }
+    .about-ver-tablet{
+        display: initial;
+    }
+
+    .about__skill{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding: 0rem 5rem;
+    
+        /* display: grid;
+        grid-template-columns: repeat(6,1fr );
+        gap: 2rem; */
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+ }
