@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/PortfolioWeb/static/css/main.32d76b1c.css",
+    "main.js": "/PortfolioWeb/static/js/main.991e3b01.js",
+    "static/media/Avatar.png": "/PortfolioWeb/static/media/Avatar.70872191058fc3a7301d.png",
+    "static/media/Resume_2ndyear.pdf": "/PortfolioWeb/static/media/Resume_2ndyear.6fac3d9dab8511282b1d.pdf",
+    "static/media/vector2.jpg": "/PortfolioWeb/static/media/vector2.9cccdce07e3bc3e3997a.jpg",
+    "static/media/desktop-computer.png": "/PortfolioWeb/static/media/desktop-computer.ab033106ca039311c661.png",
+    "static/media/python.png": "/PortfolioWeb/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/teamwork.png": "/PortfolioWeb/static/media/teamwork.dea48599662009806d6f.png",
+    "static/media/microphone.png": "/PortfolioWeb/static/media/microphone.8194baf20c49fcfc3590.png",
+    "static/media/java.png": "/PortfolioWeb/static/media/java.aaaa73f637215f4d6333.png",
+    "static/media/event.png": "/PortfolioWeb/static/media/event.1f84ef53a2349f257c9a.png",
+    "static/media/github2.png": "/PortfolioWeb/static/media/github2.f3d873d71aa989badfd2.png",
+    "static/media/chemistry.png": "/PortfolioWeb/static/media/chemistry.abc39c15554c33ad0b89.png",
+    "static/media/trophy.png": "/PortfolioWeb/static/media/trophy.bd968feab24a35d893d3.png",
+    "static/media/c++.png": "/PortfolioWeb/static/media/c++.24a8f93854ab092f17a7.png",
+    "static/media/tree.png": "/PortfolioWeb/static/media/tree.46b02d7e758fc4246545.png",
+    "static/media/joystick.png": "/PortfolioWeb/static/media/joystick.201c3cd5a18f3c804259.png",
+    "static/media/charity.png": "/PortfolioWeb/static/media/charity.eb46aa071baafb0aa2ef.png",
+    "static/media/linkedin.png": "/PortfolioWeb/static/media/linkedin.d21b834035baa551e886.png",
+    "static/media/vector03.jpg": "/PortfolioWeb/static/media/vector03.e9f846ef4c2ec6bd1052.jpg",
+    "static/media/internet.png": "/PortfolioWeb/static/media/internet.b8858f55a89e078ff8d8.png",
+    "static/media/tree (1).png": "/PortfolioWeb/static/media/tree (1).e64fe20cceed6346a92a.png",
+    "static/media/figma.png": "/PortfolioWeb/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/html.png": "/PortfolioWeb/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css.png": "/PortfolioWeb/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "index.html": "/PortfolioWeb/index.html",
+    "main.32d76b1c.css.map": "/PortfolioWeb/static/css/main.32d76b1c.css.map",
+    "main.991e3b01.js.map": "/PortfolioWeb/static/js/main.991e3b01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d76b1c.css",
+    "static/js/main.991e3b01.js"
+  ]
+}
