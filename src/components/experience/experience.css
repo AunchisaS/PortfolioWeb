@@ -1,95 +1,109 @@
-.experience__container{
-    display: flex;
+.experience__container {
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     justify-content: center;
-    gap: 2rem; 
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
-    display: grid; */
+    row-gap: 2rem;
+    padding-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    padding: (0%, 10%, 0%, 10%);
 }
 
-.header{
+.header {
     text-align: center;
 }
 
-.work__container{
+.work__container {
     background-color: var(--color-white);
     padding: 1.5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition) ;
+    transition: var(--transition);
     min-width: 200px;
     max-width: 300px;
     max-height: 400px;
-    overflow: scroll; 
+    overflow: scroll;
 }
 
-.work__container:hover{
-    border-color: var(--color-beige) ;
-    background: var(--color-whitegray) ;
+.work__container:hover {
+    border-color: var(--color-beige);
+    background: var(--color-whitegray);
 }
 
 
-.logo__tag{
-   max-width: 2.5rem;
-   max-height: 2.5rem;
-   
+.logo__tag {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+
 }
 
-.test{
-   max-width: 2.5rem;
-   max-height: 2.5rem;
+.test {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
 }
 
-.sub-header{
+.sub-header {
     text-align: center;
 }
 
-.tag-bar{
+.tag-bar {
     text-align: start;
     /* margin-left: 4rem; */
     /* margin-top: 1.5rem; */
     margin: 5% 5% 0% 5%;
 }
 
-.experience__container{
+.experience__container {
     margin-top: 2.5rem;
 }
 
 
-.TypeBtn{
+.TypeBtn {
     padding: 1rem;
     margin: 0.5rem;
-    border-bottom: 3.5px solid ;
+    border-bottom: 3.5px solid;
     border-color: black;
     background-color: transparent;
-
+    cursor: pointer;
 }
-.btn{
+
+.TypeBtn:hover {
+    transform: scale(1.1);
+    border-color: var(--color-whitegray);
+}
+
+.btn {
     border-radius: 2rem;
     font-weight: 400;
     margin: 0.25rem;
-    
-
+    cursor: pointer;
 }
 
 /*====================MEDIA QUERIES =======================*/
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    .tag-bar{
-    text-align: start;
-    margin-left: 4rem;
-    margin-top: 1.5rem;
+@media (min-width: 768px) {
+    .tag-bar {
+        text-align: start;
+        margin-left: 4rem;
+        margin-top: 1.5rem;
     }
- 
+
+    .experience__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    section{
+@media (min-width: 992px) {
+    section {
         min-height: 100vh;
+    }
+
+    .experience__container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
