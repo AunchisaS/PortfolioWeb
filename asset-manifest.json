@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWeb/static/css/main.b5ee9121.css",
-    "main.js": "/PortfolioWeb/static/js/main.6b142eb8.js",
+    "main.css": "/PortfolioWeb/static/css/main.760a04df.css",
+    "main.js": "/PortfolioWeb/static/js/main.bef1295d.js",
     "static/media/Avatar.png": "/PortfolioWeb/static/media/Avatar.70872191058fc3a7301d.png",
     "static/media/Resume_Aunchisa_310123.pdf": "/PortfolioWeb/static/media/Resume_Aunchisa_310123.4ede46492ac6311a6d6b.pdf",
     "static/media/vector2.jpg": "/PortfolioWeb/static/media/vector2.9cccdce07e3bc3e3997a.jpg",
@@ -26,11 +26,11 @@
     "static/media/html.png": "/PortfolioWeb/static/media/html.cfb2ba4a6b1c3de295bc.png",
     "static/media/css.png": "/PortfolioWeb/static/media/css.4a6549b8c2b4cda8bb88.png",
     "index.html": "/PortfolioWeb/index.html",
-    "main.b5ee9121.css.map": "/PortfolioWeb/static/css/main.b5ee9121.css.map",
-    "main.6b142eb8.js.map": "/PortfolioWeb/static/js/main.6b142eb8.js.map"
+    "main.760a04df.css.map": "/PortfolioWeb/static/css/main.760a04df.css.map",
+    "main.bef1295d.js.map": "/PortfolioWeb/static/js/main.bef1295d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5ee9121.css",
-    "static/js/main.6b142eb8.js"
+    "static/css/main.760a04df.css",
+    "static/js/main.bef1295d.js"
   ]
 }
