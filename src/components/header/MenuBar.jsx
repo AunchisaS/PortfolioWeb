@@ -1,5 +1,4 @@
 import React from 'react'
-//import Resume from '../../assets/Resume_2ndyear.pdf'
 import Resume from '../../assets/Resume_Aunchisa_310123.pdf'
 
 import '../nav/Nav.jsx'

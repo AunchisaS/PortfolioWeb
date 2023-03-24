@@ -5,11 +5,11 @@ const TabButton = ({active,title, ...props }) => {
            // destructuring props
   return (
     <button 
-             className={'TypeBtn'}
+            className={`TypeBtn ${active ? 'active' : ''}`}
             {...props}
     >
-        
         <h2 style={{maxFontSize:'1.4rem',letterSpacing :'0.75px' }}>{title}</h2>
+        
     </button>
    
   );

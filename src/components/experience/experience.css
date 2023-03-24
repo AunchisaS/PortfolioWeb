@@ -1,3 +1,4 @@
+
 .experience__container {
     /* display: flex;
     flex-direction: row;
@@ -15,6 +16,74 @@
     text-align: center;
 }
 
+/*card part : card-header,card-body, card-footer */
+/* experience.css */
+
+.work__container {
+    height: 100%;
+    width: 300px;
+    /* min-height: 350px; */
+  }
+  
+  .work__container .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:var(--color-white);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .work__container .card-header .logo__tag {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+  }
+  
+  .work__container .card-header .logo__link {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+  }
+  
+  .work__container .card-body {
+    padding: 15px;
+    background-color: var(--color-white);
+  }
+  
+  .work__container .card-body .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    min-height: 70px;
+  }
+  
+  .work__container .card-body .card-text {
+    font-size: 16px;
+    color: var(--color--black);
+    /* margin-bottom: 20px; */
+    min-height: 140px;
+
+  }
+  
+  .work__container .card-footer {
+    background-color: var(--color-white);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #999;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+  }
+
+  .no-skill .card-footer {
+    height: 30px;
+  }
+/*   
 .work__container {
     background-color: var(--color-white);
     padding: 1.5rem;
@@ -25,19 +94,23 @@
     max-width: 300px;
     max-height: 400px;
     overflow: scroll;
-}
+} */
 
-.work__container:hover {
+/* .work__container:hover {
     border-color: var(--color-beige);
     background: var(--color-whitegray);
-}
+} */
 
+/* .card-footer{
+    border-top: var(--color-darkgrey);
+} */
 
+/*
 .logo__tag {
     max-width: 2.5rem;
     max-height: 2.5rem;
 
-}
+} */
 
 .test {
     max-width: 2.5rem;
@@ -48,12 +121,26 @@
     text-align: center;
 }
 
-.tag-bar {
+/* .tag-bar {
     text-align: start;
-    /* margin-left: 4rem; */
-    /* margin-top: 1.5rem; */
+    display: grid;
+    gap: 10px;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
     margin: 5% 5% 0% 5%;
-}
+} */
+
+.tag-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 20px;
+  }
+  
+  .tag-bar > * {
+    margin-right: 8px; /* Adjust this value as needed */
+    margin-bottom: 10px;
+  }
 
 .experience__container {
     margin-top: 2.5rem;
@@ -69,17 +156,86 @@
     cursor: pointer;
 }
 
-.TypeBtn:hover {
+.TypeBtn.active {
     transform: scale(1.1);
     border-color: var(--color-whitegray);
 }
 
-.btn {
-    border-radius: 2rem;
+.TagBtn {
+    border-radius: 40px;
     font-weight: 400;
-    margin: 0.25rem;
     cursor: pointer;
+    /* border: 2px solid var(--color-whitegray); */
+    background-color: var(--color-darkbrown);
+    width: max-content;
+    display: inline-block;
+    color: var(--color-whitegray);
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: var(--transition);
+
 }
+
+.TagBtn.active {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid var(--color--black);
+    color: var(--color--white);
+    background-color: var(--color-whitegray);
+    /* border-radius: 20px; */
+    /* padding: 8px 16px; */
+}
+
+
+/*===============modal========================*/
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 1rem;
+    max-width: 600px;
+    max-height: 600px;
+    overflow: auto;
+    margin: auto;
+    content: wrap;
+    
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: 1rem;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
 
 /*====================MEDIA QUERIES =======================*/
 

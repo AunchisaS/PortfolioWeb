@@ -5,7 +5,7 @@ const TagButton = ({active,title, ...props }) => {
            // destructuring props
   return (
     <button 
-             className={'btn'}
+            className={`TagBtn ${active ? 'active' : ''}`}
             {...props}
     >
         
