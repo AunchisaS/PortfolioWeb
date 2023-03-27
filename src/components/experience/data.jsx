@@ -36,18 +36,33 @@ const Data = [
 
  
     },
-    //{
-      // id:3,
-      // name: "New Awards 01",
-      // category: "Academic Work",
-      // tag: "AWARDS",
-      // taglogo: trophy,
-      // desc: "This awards is about ......",
-      // skill: "",
-      // link: ""
-    //},
     {
-      id: 4,
+      id:3,
+      name: "CU Freelance",
+      category: "Academic Work",
+      tag: "UX/UI",
+      taglogo: web,
+      desc: "Designed the user interface of CU Freelance, a platform connecting Chulalongkorn University students with freelance opportunities. Focused on creating an intuitive and visually appealing experience for users.",
+      skill:"Design",
+      link: "https://www.figma.com/file/f1srmEuC2mT0aiNs0cqEdk/Use-Case?node-id=0%3A1&t=KYa19BMJzKEiTNeA-1",
+      linklogo: figma
+
+    }  ,
+    {
+      id:4,
+      name: "Tourister",
+      category: "Academic Work",
+      tag: "UX/UI",
+      taglogo: web,
+      desc: "Contributed to the design of Tourister, a platform that matches tourist guides with travelers. Designed key aspects of the user interface to enhance usability and promote engagement. Worked closely with the development team to ensure the design was implemented effectively.",
+      skill:"Design",
+      link: "https://www.figma.com/proto/MHeOEkfhVtfethEyhBPdAE/Tourister?node-id=61-1344&scaling=scale-down&page-id=0%3A1&starting-point-node-id=61%3A1344&show-proto-sidebar=1",
+      linklogo: figma
+
+    }, 
+
+    {
+      id: 5,
       name: "Engineering Student Committee",
       category: "Extracurricular Activity",
       tag: "LEADERSHIP",
@@ -58,7 +73,7 @@ const Data = [
       linklogo: ""
     },
     {
-      id: 5,
+      id: 6,
       name: "MC",
       category: "Extracurricular Activity",
       tag: "SPEAKING",
@@ -69,7 +84,7 @@ const Data = [
       linklogo: ""
     },
     {
-      id: 6,
+      id: 7,
       name: "Debater",
       category: "Extracurricular Activity",
       tag: "SPEAKING",
@@ -80,7 +95,7 @@ const Data = [
       linklogo: ""
     },
     {
-      id: 7,
+      id: 8,
       name: "Head of the activity team",
       category: "Extracurricular Activity",
       tag: "EVENTS",
@@ -90,43 +105,8 @@ const Data = [
       link: "",
       linklogo: ""
     },
+
     
-    // {
-    //   id:8,
-    //   name: "Medic",
-    //   category: "Extracurricular Activity",
-    //   tag: "CSR",
-    //   taglogo: charity,
-    //   desc: "A member of MEDIC club which aims to publicize knowledge about first aid",
-    //   skill:"",
-    //   link: "",
-    //   linklogo: ""
-
-    // },
-    {
-      id:9,
-      name: "CU Freelance",
-      category: "Academic Work",
-      tag: "UX/UI",
-      taglogo: web,
-      desc: "Design UI of the website",
-      skill:"Design",
-      link: "",
-      linklogo: figma
-
-    }  ,
-    {
-      id:10,
-      name: "Tourister",
-      category: "Academic Work",
-      tag: "UX/UI",
-      taglogo: web,
-      desc: "Design UI of the website",
-      skill:"Design",
-      link: "https://www.figma.com/proto/MHeOEkfhVtfethEyhBPdAE/Tourister?node-id=61-1344&scaling=scale-down&page-id=0%3A1&starting-point-node-id=61%3A1344&show-proto-sidebar=1",
-      linklogo: figma
-
-    } 
     
   ];
    

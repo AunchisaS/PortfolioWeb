@@ -13,6 +13,10 @@
 }
 
 
+.about-ver-phone h3{
+    font-weight: 600;
+    font-size: medium;
+}
 
 .each__skill{
     text-align: center; 

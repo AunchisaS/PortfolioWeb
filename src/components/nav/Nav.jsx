@@ -3,7 +3,7 @@ import "./nav.css"
 import {FiHome} from 'react-icons/fi'
 import {BiUserCircle} from 'react-icons/bi'
 import {AiOutlineBook} from 'react-icons/ai'
-import {AiOutlineMessage} from 'react-icons/ai'
+// import {AiOutlineMessage} from 'react-icons/ai'
 import { useState } from 'react'
 
 const Button = ({

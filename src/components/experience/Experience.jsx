@@ -81,7 +81,7 @@ const Experience = () => {
     <>
       <section id="experience">
         <div className="header">
-          <h2 style={{ padding: "2rem 0rem 1rem 0rem" }}>Experience</h2>
+          <h1 style={{ padding: "2rem 0rem 1rem 0rem" }}>Experience</h1>
         </div>
         <div className="sub-header">
           {categories.map((category) => (
